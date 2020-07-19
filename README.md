@@ -17,3 +17,5 @@
 - [使用 jsdelivr 加速 Github 仓库资源](https://github.com/maomao1996/daily-notes/issues/7)
 
 - [使用 husky、lint-staged、commitlint 构建前端工作流](https://github.com/maomao1996/daily-notes/issues/8)
+
+- [package.json 相关知识](https://github.com/maomao1996/daily-notes/issues/9)
