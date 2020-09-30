@@ -19,3 +19,9 @@
 - [使用 husky、lint-staged、commitlint 构建前端工作流](https://github.com/maomao1996/daily-notes/issues/8)
 
 - [package.json 相关知识](https://github.com/maomao1996/daily-notes/issues/9)
+
+- [语义化版本控制](https://github.com/maomao1996/daily-notes/issues/10)
+
+- [获取当前 git 分支](https://github.com/maomao1996/daily-notes/issues/11)
+
+- [使用 URLSearchParams 解析 URL 的查询字符串](https://github.com/maomao1996/daily-notes/issues/12)
