@@ -25,3 +25,9 @@
 - [获取当前 git 分支](https://github.com/maomao1996/daily-notes/issues/11)
 
 - [使用 URLSearchParams 解析 URL 的查询字符串](https://github.com/maomao1996/daily-notes/issues/12)
+
+- [puppeteer 学习笔记](https://github.com/maomao1996/daily-notes/issues/13)
+
+- [Webpack 性能分析](https://github.com/maomao1996/daily-notes/issues/14)
+
+- [CRA 接入 react-dev-inspector](https://github.com/maomao1996/daily-notes/issues/15)
