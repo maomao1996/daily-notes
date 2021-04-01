@@ -1,0 +1,22 @@
+{
+  "name": "daily-notes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "日常笔记记录（零零散散啥都记系列）",
+  "scripts": {
+    "build": "node scripts/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maomao1996/daily-notes.git"
+  },
+  "author": "maomao1996 <1714487678@qq.com>",
+  "bugs": {
+    "url": "https://github.com/maomao1996/daily-notes/issues"
+  },
+  "homepage": "https://github.com/maomao1996/daily-notes#readme",
+  "devDependencies": {
+    "fs-extra": "^9.1.0",
+    "octonode": "^0.10.0"
+  }
+}

@@ -1,0 +1,24 @@
+name: Generate Readme
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+      - name: Run Script
+        run: yarn && yarn build
+      - name: Push
+        uses: github-actions-x/commit@v2.7
+        with:
+          github-token: ${{ secrets.ACCESS_TOKEN }}
+          push-branch: master
+          commit-message: 'Update README.md by Github Actions'
+          name: maomao1996
+          email: 1714487678@qq.com
