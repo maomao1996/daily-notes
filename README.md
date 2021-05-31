@@ -39,3 +39,5 @@
 - [Mac 终端小技巧](https://github.com/maomao1996/daily-notes/issues/18) —— 2021-01-22
 
 - [Webpack 打包优化（CRA 项目）](https://github.com/maomao1996/daily-notes/issues/19) —— 2021-04-15
+
+- [使用 npm 脚本钩子](https://github.com/maomao1996/daily-notes/issues/20) —— 2021-05-31
