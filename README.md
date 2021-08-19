@@ -41,3 +41,5 @@
 - [Webpack 打包优化（CRA 项目）](https://github.com/maomao1996/daily-notes/issues/19) —— 2021-04-15
 
 - [使用 npm 脚本钩子](https://github.com/maomao1996/daily-notes/issues/20) —— 2021-05-31
+
+- [解决 Github Support for password](https://github.com/maomao1996/daily-notes/issues/21) —— 2021-08-19
