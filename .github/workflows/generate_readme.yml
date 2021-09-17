@@ -20,5 +20,5 @@ jobs:
           github-token: ${{ secrets.ACCESS_TOKEN }}
           push-branch: master
           commit-message: 'Update README.md by Github Actions'
-          name: maomao1996
-          email: 1714487678@qq.com
+          name: github-actions[bot]
+          email: 41898282+github-actions[bot]@users.noreply.github.com
