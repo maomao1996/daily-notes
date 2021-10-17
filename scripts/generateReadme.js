@@ -1,0 +1,85 @@
+const fs = require('fs-extra')
+const client = require('octonode').client()
+
+const REPO_NAME = 'maomao1996/daily-notes'
+
+const repo = client.repo(REPO_NAME)
+const search = client.search()
+
+const MD_HEADER = `# daily-notes
+
+日常笔记记录（零零散散啥都记系列）`
+
+const MD_FOOTER = `\n`
+
+function formatTime(time) {
+  return time.replace(/T.*$/, '')
+}
+
+// 获取传入时间的 issues 信息
+async function getIssues(time) {
+  const [issuesResult] = await search.issuesAsync({
+    page: 1,
+    per_page: 100,
+    sort: 'created-desc',
+    q: `repo:${REPO_NAME} created:${time}`
+  })
+
+  return { ...issuesResult, year: time }
+}
+
+// 生成 issue 列表
+function generateIssues({ year, total_count, items }) {
+  const str = `\n\n## ${year}年 (共计 ${total_count} 篇)\n\n`
+  const issueStr = items
+    .map(
+      (issue, index) =>
+        `${index + 1}. ${formatTime(issue.created_at)} —— [${issue.title}](${
+          issue.html_url
+        })`
+    )
+    .join('\n\n')
+
+  return str + issueStr
+}
+
+;(async () => {
+  try {
+    // 获取仓库信息
+    const [infoResult] = await repo.infoAsync()
+
+    // 年份信息
+    const currentYear = new Date().getFullYear()
+    const createYear = infoResult.created_at.substr(0, 4)
+
+    const issuesRequest = []
+    for (let year = currentYear; year >= createYear; year--) {
+      issuesRequest.push(getIssues(year))
+    }
+    const issuesResult = await Promise.all(issuesRequest)
+
+    // 组装 MD 头部
+    let md = MD_HEADER
+
+    // 组装文章列表
+    for (const item of issuesResult) {
+      if (item.total_count) {
+        md += generateIssues(item)
+      }
+    }
+
+    // 组装 MD 尾部
+    md += MD_FOOTER
+
+    // 写入 README.md 文件
+    fs.writeFile('README.md', md, 'utf8')
+      .then(() => {
+        console.log('README.md 文件创建成功')
+      })
+      .catch(() => {
+        console.log('README.md 文件创建失败')
+      })
+  } catch (error) {
+    console.log('catch error :>> ', error)
+  }
+})()

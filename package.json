@@ -4,7 +4,7 @@
   "private": true,
   "description": "日常笔记记录（零零散散啥都记系列）",
   "scripts": {
-    "build": "node scripts/index.js"
+    "build": "node scripts/generateReadme.js"
   },
   "repository": {
     "type": "git",
