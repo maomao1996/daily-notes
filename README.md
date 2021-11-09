@@ -2,21 +2,23 @@
 
 日常笔记记录（零零散散啥都记系列）
 
-## 2021年 (共计 7 篇)
+## 2021年 (共计 8 篇)
 
-1. 2021-10-17 —— [Plop 实战笔记](https://github.com/maomao1996/daily-notes/issues/22)
+1. 2021-11-09 —— [Flex 语法和计算规则](https://github.com/maomao1996/daily-notes/issues/23)
 
-2. 2021-08-19 —— [解决 Github Support for password](https://github.com/maomao1996/daily-notes/issues/21)
+2. 2021-10-17 —— [Plop 实战笔记](https://github.com/maomao1996/daily-notes/issues/22)
 
-3. 2021-05-31 —— [使用 npm 脚本钩子](https://github.com/maomao1996/daily-notes/issues/20)
+3. 2021-08-19 —— [解决 Github Support for password](https://github.com/maomao1996/daily-notes/issues/21)
 
-4. 2021-04-15 —— [Webpack 打包优化（CRA 项目）](https://github.com/maomao1996/daily-notes/issues/19)
+4. 2021-05-31 —— [使用 npm 脚本钩子](https://github.com/maomao1996/daily-notes/issues/20)
 
-5. 2021-01-22 —— [Mac 终端小技巧](https://github.com/maomao1996/daily-notes/issues/18)
+5. 2021-04-15 —— [Webpack 打包优化（CRA 项目）](https://github.com/maomao1996/daily-notes/issues/19)
 
-6. 2021-01-14 —— [在 vue-cli 中使用 tailwindcss](https://github.com/maomao1996/daily-notes/issues/17)
+6. 2021-01-22 —— [Mac 终端小技巧](https://github.com/maomao1996/daily-notes/issues/18)
 
-7. 2021-01-12 —— [修改 DNS 解决 Github 资源加载失败](https://github.com/maomao1996/daily-notes/issues/16)
+7. 2021-01-14 —— [在 vue-cli 中使用 tailwindcss](https://github.com/maomao1996/daily-notes/issues/17)
+
+8. 2021-01-12 —— [修改 DNS 解决 Github 资源加载失败](https://github.com/maomao1996/daily-notes/issues/16)
 
 ## 2020年 (共计 15 篇)
 
