@@ -8,7 +8,11 @@ const search = client.search()
 
 const MD_HEADER = `# daily-notes
 
-日常笔记记录（零零散散啥都记系列）`
+日常笔记记录（零零散散啥都记系列）
+
+[去写一篇小笔记](https://github.com/${REPO_NAME}/issues/new)
+
+`
 
 const MD_FOOTER = `\n`
 
@@ -30,7 +34,7 @@ async function getIssues(time) {
 
 // 生成 issue 列表
 function generateIssues({ year, total_count, items }) {
-  const str = `\n\n## ${year}年 (共计 ${total_count} 篇)\n\n`
+  const str = `\n\n## ${year} 年 (共计 ${total_count} 篇)\n\n`
   const issueStr = items
     .map(
       (issue, index) =>
