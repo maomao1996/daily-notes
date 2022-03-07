@@ -6,9 +6,11 @@
 
 
 
-## 2022 年 (共计 1 篇)
+## 2022 年 (共计 2 篇)
 
-1. 2022-01-13 —— [Canvas 绘制带圆角的矩形图](https://github.com/maomao1996/daily-notes/issues/26)
+1. 2022-03-07 —— [常用搜索技巧](https://github.com/maomao1996/daily-notes/issues/27)
+
+2. 2022-01-13 —— [Canvas 绘制带圆角的矩形图](https://github.com/maomao1996/daily-notes/issues/26)
 
 ## 2021 年 (共计 10 篇)
 
