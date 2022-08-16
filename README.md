@@ -6,11 +6,13 @@
 
 
 
-## 2022 年 (共计 2 篇)
+## 2022 年 (共计 3 篇)
 
-1. 2022-03-07 —— [常用搜索技巧](https://github.com/maomao1996/daily-notes/issues/27)
+1. 2022-08-16 —— [在 Github Actions 环境变量中传递数组或对象](https://github.com/maomao1996/daily-notes/issues/28)
 
-2. 2022-01-13 —— [Canvas 绘制带圆角的矩形图](https://github.com/maomao1996/daily-notes/issues/26)
+2. 2022-03-07 —— [常用搜索技巧](https://github.com/maomao1996/daily-notes/issues/27)
+
+3. 2022-01-13 —— [Canvas 绘制带圆角的矩形图](https://github.com/maomao1996/daily-notes/issues/26)
 
 ## 2021 年 (共计 10 篇)
 
