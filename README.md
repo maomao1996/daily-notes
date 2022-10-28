@@ -6,17 +6,19 @@
 
 
 
-## 2022 年 (共计 5 篇)
+## 2022 年 (共计 6 篇)
 
-1. 2022-10-19 —— [修复谷歌翻译失效](https://github.com/maomao1996/daily-notes/issues/30)
+1. 2022-10-28 —— [Next.js 搭建官网踩坑小记](https://github.com/maomao1996/daily-notes/issues/31)
 
-2. 2022-09-13 —— [CSS 伪类选择器中的表达式(an+b)](https://github.com/maomao1996/daily-notes/issues/29)
+2. 2022-10-19 —— [修复谷歌翻译失效](https://github.com/maomao1996/daily-notes/issues/30)
 
-3. 2022-08-16 —— [在 Github Actions 环境变量中传递数组或对象](https://github.com/maomao1996/daily-notes/issues/28)
+3. 2022-09-13 —— [CSS 伪类选择器中的表达式(an+b)](https://github.com/maomao1996/daily-notes/issues/29)
 
-4. 2022-03-07 —— [常用搜索技巧](https://github.com/maomao1996/daily-notes/issues/27)
+4. 2022-08-16 —— [在 Github Actions 环境变量中传递数组或对象](https://github.com/maomao1996/daily-notes/issues/28)
 
-5. 2022-01-13 —— [Canvas 绘制带圆角的矩形图](https://github.com/maomao1996/daily-notes/issues/26)
+5. 2022-03-07 —— [常用搜索技巧](https://github.com/maomao1996/daily-notes/issues/27)
+
+6. 2022-01-13 —— [Canvas 绘制带圆角的矩形图](https://github.com/maomao1996/daily-notes/issues/26)
 
 ## 2021 年 (共计 10 篇)
 
