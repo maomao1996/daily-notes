@@ -11,7 +11,6 @@ const MD_HEADER = `# daily-notes
 日常笔记记录（零零散散啥都记系列）
 
 [去写一篇小笔记](https://github.com/${REPO_NAME}/issues/new)
-
 `
 
 const MD_FOOTER = `\n`
@@ -26,7 +25,7 @@ async function getIssues(time) {
     page: 1,
     per_page: 100,
     sort: 'created-desc',
-    q: `repo:${REPO_NAME} created:${time}`
+    q: `repo:${REPO_NAME} type:issue created:${time}`
   })
 
   return { ...issuesResult, year: time }
