@@ -6,19 +6,23 @@
 
 
 
-## 2022 年 (共计 6 篇)
+## 2022 年 (共计 8 篇)
 
-1. 2022-10-28 —— [Next.js 搭建官网踩坑小记](https://github.com/maomao1996/daily-notes/issues/31)
+1. 2022-12-19 —— [ShadowSocks PAC 用户自定规则](https://github.com/maomao1996/daily-notes/issues/33)
 
-2. 2022-10-19 —— [修复谷歌翻译失效](https://github.com/maomao1996/daily-notes/issues/30)
+2. 2022-12-13 —— [build(deps): bump qs from 6.5.2 to 6.5.3](https://github.com/maomao1996/daily-notes/pull/32)
 
-3. 2022-09-13 —— [CSS 伪类选择器中的表达式(an+b)](https://github.com/maomao1996/daily-notes/issues/29)
+3. 2022-10-28 —— [Next.js 搭建官网踩坑小记](https://github.com/maomao1996/daily-notes/issues/31)
 
-4. 2022-08-16 —— [在 Github Actions 环境变量中传递数组或对象](https://github.com/maomao1996/daily-notes/issues/28)
+4. 2022-10-19 —— [修复谷歌翻译失效](https://github.com/maomao1996/daily-notes/issues/30)
 
-5. 2022-03-07 —— [常用搜索技巧](https://github.com/maomao1996/daily-notes/issues/27)
+5. 2022-09-13 —— [CSS 伪类选择器中的表达式(an+b)](https://github.com/maomao1996/daily-notes/issues/29)
 
-6. 2022-01-13 —— [Canvas 绘制带圆角的矩形图](https://github.com/maomao1996/daily-notes/issues/26)
+6. 2022-08-16 —— [在 Github Actions 环境变量中传递数组或对象](https://github.com/maomao1996/daily-notes/issues/28)
+
+7. 2022-03-07 —— [常用搜索技巧](https://github.com/maomao1996/daily-notes/issues/27)
+
+8. 2022-01-13 —— [Canvas 绘制带圆角的矩形图](https://github.com/maomao1996/daily-notes/issues/26)
 
 ## 2021 年 (共计 10 篇)
 
