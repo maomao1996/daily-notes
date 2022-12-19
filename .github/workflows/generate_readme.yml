@@ -1,6 +1,7 @@
 name: Generate Readme
 
 on:
+  workflow_dispatch:
   issues:
     types: [opened]
 
