@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/maomao1996/daily-notes#readme",
   "devDependencies": {
-    "fs-extra": "^9.1.0",
-    "octonode": "^0.10.0"
+    "fs-extra": "^11.1.0",
+    "octonode": "^0.10.2"
   }
 }
