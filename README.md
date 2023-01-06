@@ -5,6 +5,10 @@
 [去写一篇小笔记](https://github.com/maomao1996/daily-notes/issues/new)
 
 
+## 2023 年 (共计 1 篇)
+
+1. 2023-01-06 —— [使用 shell 脚本检查并配置 git user 信息](https://github.com/maomao1996/daily-notes/issues/35)
+
 ## 2022 年 (共计 8 篇)
 
 1. 2022-12-28 —— [搭建青龙定时任务管理面板](https://github.com/maomao1996/daily-notes/issues/34)
