@@ -26,7 +26,7 @@ jobs:
           cache: 'pnpm'
 
       - name: Run Script
-        run: pnpm install && pnpm build
+        run: pnpm install && pnpm build && pnpm prettier
 
       - name: Push
         uses: github-actions-x/commit@v2.9
