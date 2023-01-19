@@ -37,9 +37,7 @@ function generateIssues({ year, total_count, items }) {
   const issueStr = items
     .map(
       (issue, index) =>
-        `${index + 1}. ${formatTime(issue.created_at)} —— [${issue.title}](${
-          issue.html_url
-        })`
+        `${index + 1}. ${formatTime(issue.created_at)} —— [${issue.title}](${issue.html_url})`
     )
     .join('\n\n')
 
