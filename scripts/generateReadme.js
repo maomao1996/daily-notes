@@ -1,16 +1,18 @@
 const fs = require('fs-extra')
 const client = require('octonode').client()
 
-const REPO_NAME = 'maomao1996/daily-notes'
+const USERNAME = 'maomao1996'
+const REPO_NAME = 'daily-notes'
+const REPO_URL = `${USERNAME}/${REPO_NAME}`
 
-const repo = client.repo(REPO_NAME)
+const repo = client.repo(REPO_URL)
 const search = client.search()
 
 const MD_HEADER = `# daily-notes
 
 日常笔记记录（零零散散啥都记系列）
 
-[去写一篇小笔记](https://github.com/${REPO_NAME}/issues/new)
+[去写一篇小笔记](https://github.com/${REPO_URL}/issues/new)
 `
 
 const MD_FOOTER = `\n`
@@ -25,7 +27,7 @@ async function getIssues(time) {
     page: 1,
     per_page: 100,
     sort: 'created-desc',
-    q: `repo:${REPO_NAME} type:issue created:${time}`
+    q: `repo:${REPO_URL} type:issue author:${USERNAME} created:${time}`
   })
 
   return { ...issuesResult, year: time }
