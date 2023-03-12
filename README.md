@@ -4,15 +4,17 @@
 
 [去写一篇小笔记](https://github.com/maomao1996/daily-notes/issues/new)
 
-## 2023 年 (共计 4 篇)
+## 2023 年 (共计 5 篇)
 
-1. 2023-02-28 —— [使用 VitePress 打造个人前端导航网站](https://github.com/maomao1996/daily-notes/issues/38)
+1. 2023-03-12 —— [VitePress 生成站点地图](https://github.com/maomao1996/daily-notes/issues/39)
 
-2. 2023-02-20 —— [从 VuePress 迁移至 VitePress](https://github.com/maomao1996/daily-notes/issues/37)
+2. 2023-02-28 —— [使用 VitePress 打造个人前端导航网站](https://github.com/maomao1996/daily-notes/issues/38)
 
-3. 2023-02-10 —— [不使用 JavaScript 来隐藏元素的若干方法](https://github.com/maomao1996/daily-notes/issues/36)
+3. 2023-02-20 —— [从 VuePress 迁移至 VitePress](https://github.com/maomao1996/daily-notes/issues/37)
 
-4. 2023-01-06 —— [使用 shell 脚本检查并配置 git user 信息](https://github.com/maomao1996/daily-notes/issues/35)
+4. 2023-02-10 —— [不使用 JavaScript 来隐藏元素的若干方法](https://github.com/maomao1996/daily-notes/issues/36)
+
+5. 2023-01-06 —— [使用 shell 脚本检查并配置 git user 信息](https://github.com/maomao1996/daily-notes/issues/35)
 
 ## 2022 年 (共计 8 篇)
 
