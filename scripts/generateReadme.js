@@ -12,9 +12,9 @@ const MD_HEADER = `# daily-notes
 
 日常笔记记录（零零散散啥都记系列）
 
-为了更好的浏览体验，已同步到[茂茂物语](https://notes.fe-mm.com/daily-notes/)
-
-[去写一篇小笔记](https://github.com/${REPO_URL}/issues/new)
+> 为了更好的浏览体验，已同步到[茂茂物语](https://notes.fe-mm.com/daily-notes/)
+>
+> [新写一篇小笔记](https://github.com/maomao1996/daily-notes/issues/new)
 `
 
 const MD_FOOTER = `\n`
@@ -65,6 +65,13 @@ function generateIssues({ year, total_count, items }) {
 
     // 组装 MD 头部
     let md = MD_HEADER
+
+    if (issuesResult.length) {
+      md += `\n共计 **${issuesResult.reduce(
+        (total, current) => total + current.total_count,
+        0
+      )}** 篇（上次更新: ${formatTime(issuesResult[0].items[0].created_at)}）`
+    }
 
     // 组装文章列表
     for (const item of issuesResult) {
