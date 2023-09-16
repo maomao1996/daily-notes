@@ -6,23 +6,25 @@
 >
 > [新写一篇小笔记](https://github.com/maomao1996/daily-notes/issues/new)
 
-共计 **40** 篇（上次更新: 2023-05-21）
+共计 **41** 篇（上次更新: 2023-09-16）
 
-## 2023 年 (共计 7 篇)
+## 2023 年 (共计 8 篇)
 
-1. 2023-05-21 —— [修改 node_modules 中的依赖（打补丁）](https://github.com/maomao1996/daily-notes/issues/42)
+1. 2023-09-16 —— [使用 rollup 打包用户脚本（user script）](https://github.com/maomao1996/daily-notes/issues/43)
 
-2. 2023-05-18 —— [获取软件内置浏览器的 User-Agent](https://github.com/maomao1996/daily-notes/issues/41)
+2. 2023-05-21 —— [修改 node_modules 中的依赖（打补丁）](https://github.com/maomao1996/daily-notes/issues/42)
 
-3. 2023-03-12 —— [VitePress 生成站点地图](https://github.com/maomao1996/daily-notes/issues/39)
+3. 2023-05-18 —— [获取软件内置浏览器的 User-Agent](https://github.com/maomao1996/daily-notes/issues/41)
 
-4. 2023-02-28 —— [使用 VitePress 打造个人前端导航网站](https://github.com/maomao1996/daily-notes/issues/38)
+4. 2023-03-12 —— [VitePress 生成站点地图](https://github.com/maomao1996/daily-notes/issues/39)
 
-5. 2023-02-20 —— [从 VuePress 迁移至 VitePress](https://github.com/maomao1996/daily-notes/issues/37)
+5. 2023-02-28 —— [使用 VitePress 打造个人前端导航网站](https://github.com/maomao1996/daily-notes/issues/38)
 
-6. 2023-02-10 —— [不使用 JavaScript 来隐藏元素的若干方法](https://github.com/maomao1996/daily-notes/issues/36)
+6. 2023-02-20 —— [从 VuePress 迁移至 VitePress](https://github.com/maomao1996/daily-notes/issues/37)
 
-7. 2023-01-06 —— [使用 shell 脚本检查并配置 git user 信息](https://github.com/maomao1996/daily-notes/issues/35)
+7. 2023-02-10 —— [不使用 JavaScript 来隐藏元素的若干方法](https://github.com/maomao1996/daily-notes/issues/36)
+
+8. 2023-01-06 —— [使用 shell 脚本检查并配置 git user 信息](https://github.com/maomao1996/daily-notes/issues/35)
 
 ## 2022 年 (共计 8 篇)
 
