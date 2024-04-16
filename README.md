@@ -6,7 +6,11 @@
 >
 > [新写一篇小笔记](https://github.com/maomao1996/daily-notes/issues/new)
 
-共计 **42** 篇（上次更新: 2023-12-13）
+共计 **43** 篇（上次更新: 2024-04-16）
+
+## 2024 年 (共计 1 篇)
+
+1. 2024-04-16 —— [浏览器的自动播放策略](https://github.com/maomao1996/daily-notes/issues/45)
 
 ## 2023 年 (共计 9 篇)
 
