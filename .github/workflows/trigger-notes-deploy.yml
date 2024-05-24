@@ -1,0 +1,33 @@
+name: Trigger Notes Deploy
+
+on:
+  workflow_dispatch: # 手动触发
+  issues:
+    types: [opened] # 创建 issue 时触发
+
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  trigger-notes-actions:
+    runs-on: ubuntu-latest
+    steps:
+      # 触发 github pages 构建
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+          repository: ${{ secrets.REPOSITORY }}
+          event-type: build-and-deploy
+
+      # 触发 vercel 部署
+      - name: Deploy to Vercel
+        run: |
+          curl -X POST ${{ secrets.VERCEL_DEPLOY_HOOK }} \
+            -H "Content-Type: application/json"
+
+      # 触发 netlify 部署
+      - name: Deploy to Netlify
+        run: |
+          curl -X POST -d '{}' ${{ secrets.NETLIFY_DEPLOY_HOOK }} \
+            -H "Content-Type: application/json"
