@@ -36,3 +36,10 @@ jobs:
           commit-message: 'Update README.md by Github Actions'
           name: github-actions[bot]
           email: 41898282+github-actions[bot]@users.noreply.github.com
+
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+          repository: ${{ secrets.REPOSITORY }}
+          event-type: build-and-deploy
