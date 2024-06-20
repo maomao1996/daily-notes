@@ -6,15 +6,17 @@
 >
 > [新写一篇小笔记](https://github.com/maomao1996/daily-notes/issues/new)
 
-共计 **45** 篇（上次更新: 2024-05-24）
+共计 **46** 篇（上次更新: 2024-06-20）
 
-## 2024 年 (共计 3 篇)
+## 2024 年 (共计 4 篇)
 
-1. 2024-05-24 —— [在 GitHub Actions 中触发其他仓库的 Actions](https://github.com/maomao1996/daily-notes/issues/47)
+1. 2024-06-20 —— [漫画 APP 资源汇总](https://github.com/maomao1996/daily-notes/issues/48)
 
-2. 2024-05-20 —— [判断用户为移动端设备的若干种方式](https://github.com/maomao1996/daily-notes/issues/46)
+2. 2024-05-24 —— [在 GitHub Actions 中触发其他仓库的 Actions](https://github.com/maomao1996/daily-notes/issues/47)
 
-3. 2024-04-16 —— [浏览器的自动播放策略](https://github.com/maomao1996/daily-notes/issues/45)
+3. 2024-05-20 —— [判断用户为移动端设备的若干种方式](https://github.com/maomao1996/daily-notes/issues/46)
+
+4. 2024-04-16 —— [浏览器的自动播放策略](https://github.com/maomao1996/daily-notes/issues/45)
 
 ## 2023 年 (共计 9 篇)
 
