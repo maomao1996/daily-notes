@@ -11,6 +11,7 @@ env:
 jobs:
   trigger-notes-actions:
     runs-on: ubuntu-latest
+    if: github.repository_owner == github.triggering_actor
     steps:
       # 触发 github pages 构建
       - name: Repository Dispatch

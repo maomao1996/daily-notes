@@ -11,6 +11,7 @@ env:
 jobs:
   bot:
     runs-on: ubuntu-latest
+    if: github.repository_owner == github.triggering_actor
     steps:
       - name: Checkout
         uses: actions/checkout@v2
