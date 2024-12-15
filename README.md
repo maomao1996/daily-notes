@@ -6,19 +6,21 @@
 >
 > [新写一篇小笔记](https://github.com/maomao1996/daily-notes/issues/new)
 
-共计 **47** 篇（上次更新: 2024-11-16）
+共计 **48** 篇（上次更新: 2024-12-15）
 
-## 2024 年 (共计 5 篇)
+## 2024 年 (共计 6 篇)
 
-1. 2024-11-16 —— [从 VSCode 迁移到 Cursor](https://github.com/maomao1996/daily-notes/issues/50)
+1. 2024-12-15 —— [魅族 21 Pro 安装 Google 服务](https://github.com/maomao1996/daily-notes/issues/51)
 
-2. 2024-06-20 —— [漫画 APP 资源汇总](https://github.com/maomao1996/daily-notes/issues/48)
+2. 2024-11-16 —— [从 VSCode 迁移到 Cursor](https://github.com/maomao1996/daily-notes/issues/50)
 
-3. 2024-05-24 —— [在 GitHub Actions 中触发其他仓库的 Actions](https://github.com/maomao1996/daily-notes/issues/47)
+3. 2024-06-20 —— [漫画 APP 资源汇总](https://github.com/maomao1996/daily-notes/issues/48)
 
-4. 2024-05-20 —— [判断用户为移动端设备的若干种方式](https://github.com/maomao1996/daily-notes/issues/46)
+4. 2024-05-24 —— [在 GitHub Actions 中触发其他仓库的 Actions](https://github.com/maomao1996/daily-notes/issues/47)
 
-5. 2024-04-16 —— [浏览器的自动播放策略](https://github.com/maomao1996/daily-notes/issues/45)
+5. 2024-05-20 —— [判断用户为移动端设备的若干种方式](https://github.com/maomao1996/daily-notes/issues/46)
+
+6. 2024-04-16 —— [浏览器的自动播放策略](https://github.com/maomao1996/daily-notes/issues/45)
 
 ## 2023 年 (共计 9 篇)
 
