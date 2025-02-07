@@ -6,7 +6,11 @@
 >
 > [新写一篇小笔记](https://github.com/maomao1996/daily-notes/issues/new)
 
-共计 **48** 篇（上次更新: 2024-12-15）
+共计 **49** 篇（上次更新: 2025-02-07）
+
+## 2025 年 (共计 1 篇)
+
+1. 2025-02-07 —— [本地部署 DeepSeek 大模型](https://github.com/maomao1996/daily-notes/issues/52)
 
 ## 2024 年 (共计 6 篇)
 
