@@ -12,21 +12,22 @@ jobs:
   bot:
     runs-on: ubuntu-latest
     if: github.repository_owner == github.triggering_actor
+    strategy:
+      matrix:
+        node-version: [20]
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           persist-credentials: false
 
       - name: Install pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 7
+        uses: pnpm/action-setup@v4
 
-      - name: Set node version to 16
-        uses: actions/setup-node@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: ${{ matrix.node-version }}
           cache: 'pnpm'
 
       - name: Run Script
