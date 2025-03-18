@@ -12,23 +12,31 @@ jobs:
   trigger-notes-actions:
     runs-on: ubuntu-latest
     if: github.repository_owner == github.triggering_actor
+    env:
+      ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      REPOSITORY: ${{ secrets.REPOSITORY }}
+      VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+      NETLIFY_DEPLOY_HOOK: ${{ secrets.NETLIFY_DEPLOY_HOOK }}
     steps:
       # 触发 github pages 构建
       - name: Repository Dispatch
+        if: ${{ env.ACCESS_TOKEN != '' && env.REPOSITORY != '' }}
         uses: peter-evans/repository-dispatch@v3
         with:
-          token: ${{ secrets.ACCESS_TOKEN }}
-          repository: ${{ secrets.REPOSITORY }}
+          token: ${{ env.ACCESS_TOKEN }}
+          repository: ${{ env.REPOSITORY }}
           event-type: build-and-deploy
 
       # 触发 vercel 部署
       - name: Deploy to Vercel
+        if: ${{ env.VERCEL_DEPLOY_HOOK != '' }}
         run: |
-          curl -X POST ${{ secrets.VERCEL_DEPLOY_HOOK }} \
+          curl -X POST ${{ env.VERCEL_DEPLOY_HOOK }} \
             -H "Content-Type: application/json"
 
       # 触发 netlify 部署
       - name: Deploy to Netlify
+        if: ${{ env.NETLIFY_DEPLOY_HOOK != '' }}
         run: |
-          curl -X POST -d '{}' ${{ secrets.NETLIFY_DEPLOY_HOOK }} \
+          curl -X POST -d '{}' ${{ env.NETLIFY_DEPLOY_HOOK }} \
             -H "Content-Type: application/json"
