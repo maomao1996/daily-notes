@@ -6,13 +6,15 @@
 >
 > [新写一篇小笔记](https://github.com/maomao1996/daily-notes/issues/new)
 
-共计 **50** 篇（上次更新: 2025-03-13）
+共计 **51** 篇（上次更新: 2025-03-25）
 
-## 2025 年 (共计 2 篇)
+## 2025 年 (共计 3 篇)
 
-1. 2025-03-13 —— [在 Mac 邮件客户端添加 QQ 邮箱](https://github.com/maomao1996/daily-notes/issues/53)
+1. 2025-03-25 —— [Google Adsense 地址验证](https://github.com/maomao1996/daily-notes/issues/54)
 
-2. 2025-02-07 —— [本地部署 DeepSeek 大模型](https://github.com/maomao1996/daily-notes/issues/52)
+2. 2025-03-13 —— [在 Mac 邮件客户端添加 QQ 邮箱](https://github.com/maomao1996/daily-notes/issues/53)
+
+3. 2025-02-07 —— [本地部署 DeepSeek 大模型](https://github.com/maomao1996/daily-notes/issues/52)
 
 ## 2024 年 (共计 6 篇)
 
