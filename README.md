@@ -6,17 +6,19 @@
 >
 > [新写一篇小笔记](https://github.com/maomao1996/daily-notes/issues/new)
 
-共计 **52** 篇（上次更新: 2025-04-02）
+共计 **53** 篇（上次更新: 2025-04-30）
 
-## 2025 年 (共计 4 篇)
+## 2025 年 (共计 5 篇)
 
-1. 2025-04-02 —— [预览 Office 文档方案对比](https://github.com/maomao1996/daily-notes/issues/55)
+1. 2025-04-30 —— [解决 Rsbuild 和 Vite 中 sass 编译 Element 字体图标乱码问题](https://github.com/maomao1996/daily-notes/issues/56)
 
-2. 2025-03-25 —— [Google Adsense 地址验证](https://github.com/maomao1996/daily-notes/issues/54)
+2. 2025-04-02 —— [预览 Office 文档方案对比](https://github.com/maomao1996/daily-notes/issues/55)
 
-3. 2025-03-13 —— [在 Mac 邮件客户端添加 QQ 邮箱](https://github.com/maomao1996/daily-notes/issues/53)
+3. 2025-03-25 —— [Google Adsense 地址验证](https://github.com/maomao1996/daily-notes/issues/54)
 
-4. 2025-02-07 —— [本地部署 DeepSeek 大模型](https://github.com/maomao1996/daily-notes/issues/52)
+4. 2025-03-13 —— [在 Mac 邮件客户端添加 QQ 邮箱](https://github.com/maomao1996/daily-notes/issues/53)
+
+5. 2025-02-07 —— [本地部署 DeepSeek 大模型](https://github.com/maomao1996/daily-notes/issues/52)
 
 ## 2024 年 (共计 6 篇)
 
